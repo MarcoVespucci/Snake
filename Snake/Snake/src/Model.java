@@ -4,12 +4,12 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 
-public class SnakeModel {
+public class Model {
     double topEdge, bottomEdge, leftEdge, rightEdge;    
     double speed = 1;
     int dirX = 1, dirY = 1;
 
-    public SnakeModel(int size){
+    public Model(int size){
         ArrayList<Rectangle> body = new ArrayList<>();
         for(int i = 0; i<size; i++){
             Rectangle snake = new Rectangle(10, 10, Color.GREEN);
