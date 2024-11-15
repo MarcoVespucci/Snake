@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Snake_790af07e"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "vmArgs": "--module-path \"C:\\Users\\Mark\\Documents\\Object Oriented Programing\\javafx-sdk-22.0.2\\lib\" --add-modules javafx.controls,javafx.fxml --enable-preview",
