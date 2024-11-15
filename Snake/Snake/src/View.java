@@ -7,14 +7,15 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.scene.shape.Circle;
+import javafx.scene.shape.Rectangle;
 
 public class View extends BorderPane{
-    Circle ball;
+    Rectangle snake;
     Stage stage;
     double sceneHeight = 200, sceneWidth = 500;
     Pane centerPane = new Pane();
     HBox bottomPane = new HBox();
-    int bounceCount = 0;
+    int fruiteaten = 0;
 
     public View(Stage stage,double centerX, double centerY, double radius){
         this.stage = stage;
